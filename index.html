@@ -16,9 +16,11 @@
             DAN LOOTEN WEB DEVELOPMENT
         </h1>
         <div>
+<!-- The buttons will scroll down to the appropriate sections -->
             <p><a href="#about-me" class="hover-text">ABOUT ME</a></p>
             <p><a href="#work" class="hover-text">WORK</a></p>
             <p><a href="#contact-me" class="hover-text">CONTACT ME</a></p>
+<!-- When the "Resume" button is selected, a pdf containing my resume will appear -->
             <p><a href="./assets/LOOTEN - RESUME.pdf" class="hover-text">RESUME</a></p>
         </div>
     </div>
@@ -37,20 +39,24 @@
     <section id="work" class="content-grid grid-area-2">
         <h2>WORK</h2>
         <div class="App-Flex">
+<!-- The first App needed to be bigger than the others, so an additional class was added to increase it's size -->
             <div class="First-App App-Info">
-                <a href="./form-page/">
-                    <p class="hover-text">First App</p>
-                    <img src="https://source.unsplash.com/random.jpg" alt="First App" class="hover-image">
+                <a href="./form-page/index.html">
+                    <p class="hover-text">Form App</p>
+<!-- This link will change color when you hover over it, and if selected will go to the Form website I created  -->
+                    <img src="./assets/images/Form Page.PNG" alt="Form App" class="hover-image">
                 </a>
             </div>
             <div class="App-Info">
                 <a href="./fanpage/index.html">
                     <p class="hover-text">Fan Page</p>
+<!-- This link will change color when you hover over it, and if selected will go to the Fan Page website I created  -->
                     <img src="./assets/images/DaftPunk.PNG" alt="FanPage" class="hover-image">
                 </a>
             </div>
             <figure class="App-Info">
                 <a href="./calculator/index.html">
+<!-- This link will change color when you hover over it, and if selected will go to the Calculator website I created  -->
                     <p class="hover-text">Calculator</p>
                     <img src="./assets/images/Calculator.PNG" alt="Calculator" class="hover-image">
                 </a>
@@ -62,32 +68,10 @@
         <h2>CONTACT ME</h2>
         <ul>
             <li><a href="https://www.linkedin.com/in/dan-looten-1917b2178" class="hover-text">Linkedin</a></li>
-            <li><a href="https://www.https://github.com/D-Loot"  class="hover-text">GitHub</a></li>
+            <li><a href="https://github.com/D-Loot/Portfolio"  class="hover-text">GitHub</a></li>
             <li><a href="mailto: danwlooten@gmail.com" class="hover-text">Email</a></li>
         </ul>
     </footer>
     
 </body>
 </html>
-
-<!-- 
-GIVEN I need to sample a potential employee's previous work
-
-    WHEN I load their portfolio
-        THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-
-    WHEN I click one of the links in the navigation
-        THEN the UI scrolls to the corresponding section
-
-    WHEN I click on the link to the section about their work
-        THEN the UI scrolls to a section with titled images of the developer's applications
-
-    WHEN I am presented with the developer's first application
-        THEN that application's image should be larger in size than the others
-
-    WHEN I click on the images of the applications
-        THEN I am taken to that deployed application
-
-    WHEN I resize the page or view the site on various screens and devices
-        THEN I am presented with a responsive layout that adapts to my viewport 
--->

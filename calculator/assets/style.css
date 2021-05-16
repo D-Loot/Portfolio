@@ -1,0 +1,30 @@
+*{
+    display: inline-block;
+}
+
+title {
+    display: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+    width: 80vw;
+    margin: 0px 10vw 0vw;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+p{
+    width: 80vw;
+    height: 5vh;
+}
+
+input {
+    width: 100%;
+}

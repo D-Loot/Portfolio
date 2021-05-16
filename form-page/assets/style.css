@@ -1,0 +1,205 @@
+/* https://onepagelove.com/made-by-daryl */
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    box-sizing: border-box;
+    --med-pad: 10px;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(226, 253, 244);
+}
+
+.head-block div p a {
+    color: inherit;
+    text-decoration: inherit;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: .15rem;
+    border-radius: .5rem;
+}
+
+.head-block div p a:hover{
+    color: cyan;
+    border-color: cyan;
+}
+
+.head-block {
+    background-color: midnightblue;
+    color:white;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+/* TODO: double check */
+/* @media scree and (min-width: 500px) {
+    .head-block {
+        display: flex;
+        flex-direction: row;
+    }
+} */
+.head-block h1 {
+    font-size: 1.25rem;
+    text-align: left;
+    align-self: center;
+}
+.head-block div {
+    text-align: center;
+    width: 35vw;
+    text-align-last: justify;
+    align-self: center;
+}
+
+.head-block div p {
+    display: inline-block;
+    font-size: 0.75rem;
+}
+
+.Background-Image {
+    height: auto;
+    width: 80vw;
+    align-self: center;
+}
+
+.grid-area-1{
+    margin: 0px 10vw 0px;
+    display:grid;
+    grid-template-columns: 20vw 30vw 30vw;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.grid-area-2{
+    margin: 0px 10vw 0px;
+    display:grid;
+    grid-template-columns: 20vw 60vw;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+
+.content-grid h2 {
+    text-align: right;
+    margin-right: 1vw;
+    padding-right: 1vw;
+    border-right: 1vw solid;
+    border-color: midnightblue;
+}
+
+.App-Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-pic{
+    height: auto;
+    width: 26vw;
+    border-radius: 1rem;
+}
+
+.App-Info {
+    height: 25vh;
+    width: 45%;
+    margin: .5rem;
+    position:relative;
+}
+
+.First-App {
+    width: 100%;
+}
+
+.App-Info a img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    border-width: 0.5vw;
+    border: midnightblue solid;
+}
+
+.App-Info a p {
+    background-color: white;
+    border-radius: 1rem;
+    color: midnightblue;
+    height: 1.5rem;
+    width: 20vw;
+    font-size: 0.75rem;
+    position: absolute;
+    bottom: 3vh;
+    text-align-last: center;
+    text-decoration: auto;
+    text-align: center;
+}
+
+.App-Info a:hover > img, .App-Info a:hover > p{
+    color: cyan;
+    border-color: cyan;
+}
+
+
+footer {
+    background-color: midnightblue;
+    color:white;
+    height: 20vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+footer h2 {
+    align-self: center;
+    justify-self: center;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10vw 0px 0px;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+footer ul li a:hover{
+    color: cyan;
+}
+
+/* -------------- To Do ------------------
+fix "a" border - it applies to too many things (see footer) */
+
+
+
+/* .hero{
+    height:40vh;
+    width: 100vw;
+    /* background: url(./assets/images/) center center no-repeat; 
+            centered vertically and centered and horizontally */
+    /* background-size: cover; */
+    /* background-size: contain;
+} */

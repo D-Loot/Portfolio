@@ -1,0 +1,51 @@
+
+title {
+    display: none;
+}
+
+body {
+    text-align: -webkit-center;
+}
+
+section {
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-self: center; */
+    width: fit-content;
+    background-color: lightgrey;
+    border: solid 2px;
+    margin-top: 10vh;
+    padding-bottom: 1rem;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    width:75%
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
+    /* position:relative; */
+}
+.text-input{
+    max-width: fit-content;
+    height: 5vh;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5vh;
+    width: 4rem;
+    align-content: center;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 1rem;
+    margin: 0.25rem;
+    font-size: 1.5rem;
+}
+ #equals{
+     width:8rem;
+ }

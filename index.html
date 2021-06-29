@@ -24,43 +24,144 @@
             <p><a href="./assets/LOOTEN - RESUME.pdf" class="hover-text">RESUME</a></p>
         </div>
     </div>
+    <!-- https://jqueryui.com/position/#cycler -->
+    <!-- IMAGES from http://nvidia-research-mingyuliu.com/gaugan/ -->
 
-    <img src="./assets/images/Bonsai Tree.jpg" alt="Background Image" class="Background-Image">
+    <div id="container">
+        <img class="imgCycler" src="./assets/images/fake flowers.png" width="50" height="307" alt="flowers">
+        <img class="imgCycler" src="./assets/images/fake riverside.png" width="512" height="307" alt="riverside">
+        <img class="imgCycler" src="./assets/images/fake coastline3.png" width="512" height="307" alt="coastline3">
+      <div id="previous">&lt;</div>
+      <div id="next">&gt;</div>
+      </div>
 
+    <!-- <img src="./assets/images/Bonsai Tree.jpg" alt="Background Image" class="Background-Image"> -->
+
+    <!-- https://jqueryui.com/accordion/ -->
     <section id="about-me" class="content-grid grid-area-1">
         <h2>ABOUT ME</h2>
-        <p>Dan Looten Web Development offers expertise in both front-end and back-end web development. <br> <br> 
+        <p>Dan Looten Web Development offers expertise in both front-end and back-end web development. <br> <br>
             If you are a small company looking for website online to host web sales or a large corporation <br>
             looking for back-end assistance, Dan Looten Web Development can help you.</p>
 
-        <img src="./assets/images/cover photo.jpg" alt="Profile Picture" class="profile-pic">    
+        <img src="./assets/images/cover photo.jpg" alt="Profile Picture" class="profile-pic">
     </section>
 
     <section id="work" class="content-grid grid-area-2">
         <h2>WORK</h2>
         <div class="App-Flex">
-<!-- The first App needed to be bigger than the others, so an additional class was added to increase it's size -->
+<!-- The first App needed to be bigger than the others, so an additional class was added to increase it's size
             <div class="First-App App-Info">
                 <a href="./form-page/index.html">
                     <p class="hover-text">Form App</p>
-<!-- This link will change color when you hover over it, and if selected will go to the Form website I created  -->
+This link will change color when you hover over it, and if selected will go to the Form website I created
                     <img src="./assets/images/Form Page.PNG" alt="Form App" class="hover-image">
                 </a>
             </div>
             <div class="App-Info">
                 <a href="./fanpage/index.html">
                     <p class="hover-text">Fan Page</p>
-<!-- This link will change color when you hover over it, and if selected will go to the Fan Page website I created  -->
+This link will change color when you hover over it, and if selected will go to the Fan Page website I created
                     <img src="./assets/images/DaftPunk.PNG" alt="FanPage" class="hover-image">
                 </a>
             </div>
             <figure class="App-Info">
                 <a href="./calculator/index.html">
-<!-- This link will change color when you hover over it, and if selected will go to the Calculator website I created  -->
+This link will change color when you hover over it, and if selected will go to the Calculator website I created
                     <p class="hover-text">Calculator</p>
                     <img src="./assets/images/Calculator.PNG" alt="Calculator" class="hover-image">
                 </a>
-            </figure>
+            </figure> -->
+
+
+
+            <div class="App-Info" id="First-App">
+                <a href="https://d-loot.github.io/spoons/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/SpoonsImg.png" alt="Spoons Project" style="width: 300px;height: 350px;    border-radius: 1rem;">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Spoons Project</h1>
+                            <p>A progress tracker built specifically for the neurodivergent community. The program utilizes both set tasks, and custom tasks that can be inputted by the user.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>JavaScript</p>
+                                <p>Local Storage</p>
+                                <p>API</p>
+                                <p>moment.js</p>
+                                <p>GitHub</p>
+                                <p>timer (setInterval)</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="https://d-loot.github.io/W06-WeatherDashboard/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/WeatherAppImg.PNG" alt="Weather Dashboard" style="width:300px;height:350px;border-radius: 1rem">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Weather Dashboard</h1>
+                            <p>Current and 5 day weather forecast app for any givn city.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>BootStrap</p>
+                                <p>JavaScript</p>
+                                <p>OpenWeatherMap API</p>
+                                <p>moment.js</p>
+                                <p>Local Storage</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="https://d-loot.github.io/W05-WorkDayScheduler/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/WorkDayScheduler.png" alt="Work Day Scheduler" style="width:300px;height:350px;border-radius: 1rem">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Work Day Scheduler</h1>
+                            <p>Saves the tasks submitted into each timeslot and displays a different color for each timeslot. (Current time: red; past: grey; future: green)</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>BootStrap</p>
+                                <p>JavaScript</p>
+                                <p>moment.js</p>
+                                <p>Local Storage</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="./calculator/index.html">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/Calculator.PNG" alt="Calculator" style="width:300px;height:350px;border-radius: 1rem">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Calculator</h1>
+                            <p>A fully functional calculator.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -72,6 +173,9 @@
             <li><a href="mailto: danwlooten@gmail.com" class="hover-text">Email</a></li>
         </ul>
     </footer>
-    
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>

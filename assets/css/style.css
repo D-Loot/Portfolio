@@ -112,35 +112,20 @@ body {
     border-radius: 1rem;
 }
 
-/* .App-Info {
-    height: 25vh;
-    width: 45%;
-    margin: .5rem;
-    position:relative;
-} */
-
-#First-App {
-    width: 300px;
-    height: 350px;
-}
-
-/* .App-Info a img {
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
-    border-width: 0.5vw;
-    border: #61CDE9 solid;
-} */
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .App-Info {
     background-color: transparent;
     width: 300px;
     height: 350px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
     margin: 0.5rem;
     border-radius: 1rem;
-  }
+}
+
+.App-Info-Img-Init{
+    width:300px;
+    height:350px;
+    border-radius: 1rem
+}
 
 .App-Info a{
     text-decoration: auto;
@@ -175,6 +160,23 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
+
+  @media screen and (max-width: 800px) {
+    .App-Info {
+        background-color: transparent;
+        width: 200px;
+        height: 275px;
+        perspective: 1000px;
+        margin: 0.5rem;
+        border-radius: 1rem;
+        }
+
+        .App-Info-Img-Init{
+        width:200px;
+        height:275px;
+        border-radius: 1rem
+        }
+}
 
   .App-Info-Img {
     background-color: white;
@@ -266,40 +268,41 @@ padding-right: 0.5rem;
 }
 @media screen and (min-width: 800px) {
     :root{
-        font-size: 16px;
+    font-size: 16px;
     }
+
     #container {
-        overflow: hidden;
-        position: relative;
-        height: 400px;
-        }
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    }
 
-        .imgCycler {
-        position: absolute;
-        width:auto;
-        height:400px;
-        }
-        #previous{
-        position: absolute;
-        right: 80%;
-        top: 15%;
-        font-size: 4rem;
-        border: solid 2px;
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        }
+    .imgCycler {
+    position: absolute;
+    width:auto;
+    height:400px;
+    }
+    #previous{
+    position: absolute;
+    right: 80%;
+    top: 15%;
+    font-size: 4rem;
+    border: solid 2px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
 
-        #next {
-        position: absolute;
-        right: 15%;
-        top: 15%;
-        font-size: 4rem;
-        border: solid 2px;
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-        padding-left: .5rem;
-        padding-right: 0.5rem;
-        }
+    #next {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    font-size: 4rem;
+    border: solid 2px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: .5rem;
+    padding-right: 0.5rem;
+    }
 }

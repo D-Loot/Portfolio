@@ -2,27 +2,7 @@
 
 ## The Task
 
-The task for this homework was to create a Portfolio for a potential employeer to visit and see the quality of a few of my existing projects. For this project I created the Portfolio page, a calculator page, a form page and I also linked the existing fan page from my pre-work to the site. I also needed to follow the given guidance:
-
-GIVEN I need to sample a potential employee's previous work
-
-    WHEN I load their portfolio
-        THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-
-    WHEN I click one of the links in the navigation
-        THEN the UI scrolls to the corresponding section
-
-    WHEN I click on the link to the section about their work
-        THEN the UI scrolls to a section with titled images of the developer's applications
-
-    WHEN I am presented with the developer's first application
-        THEN that application's image should be larger in size than the others
-
-    WHEN I click on the images of the applications
-        THEN I am taken to that deployed application
-
-    WHEN I resize the page or view the site on various screens and devices
-        THEN I am presented with a responsive layout that adapts to my viewport
+The task for this homework was to update the portfolio that was created earlier in the program. In order to improve the feel of the portfolio, I decided to add a few features. I upgraded the color palette for a brighter look and I created a few images and added an image cycler that would allow the user to scroll through the images. The assignment requested that I add a few projects that I liked, so I added the class project "Spoons", the weather dashboard, the Work Day Scheduler and I also created a functional calculator and added it to my work experience. I was not thrilled with the highlight feature from before, so I added an animation that flips the card to reveal a description of the project, a summary, and the tools I used to create it. I think it looks nicer this way. I hope you think so too.
 
 Once the changes to the code were implemented, everything needed to be uploaded to a Github Repository
 

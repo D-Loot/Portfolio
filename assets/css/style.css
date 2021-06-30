@@ -155,7 +155,6 @@ body {
     padding: 2px;
 }
 
-  /* This container is needed to position the front and back side */
   .App-Info-inner {
     position: relative;
     width: 100%;
@@ -165,52 +164,29 @@ body {
     transform-style: preserve-3d;
   }
 
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .App-Info:hover .App-Info-inner {
     transform: rotateY(180deg);
   }
 
-  /* Position the front and back side */
   .App-Info-Img, .App-Info-Text {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
 
-  /* Style the front side (fallback if image is missing) */
   .App-Info-Img {
     background-color: white;
     color: black;
   }
 
-  /* Style the back side */
   .App-Info-Text {
     background-color: #61CDE9;
     color: white;
     transform: rotateY(180deg);
     border-radius: 1rem;
   }
-
-/* .App-Info a p {
-    background-color: #61CDE9;
-    border-radius: 1rem;
-    color: white;
-    height: 1.5rem;
-    width: 20vw;
-    font-size: 0.75rem;
-    position: absolute;
-    bottom: 3vh;
-    text-align-last: center;
-    text-decoration: auto;
-    text-align: center;
-} */
-
-/* .App-Info a:hover > img, .App-Info a:hover > p{
-    color: #FFB63E;
-    border-color: #FFB63E;
-} */
 
 footer {
     background-color: #9BD093;
@@ -253,15 +229,11 @@ footer ul li a:hover{
     color: #FFB63E;
 }
 
-/* Created for Image Cycler */
+/* Image Cycler */
 #container {
 overflow: hidden;
 position: relative;
-/* left: 0.5%; */
-/* width: 98%; */
 height: 200px;
-/* height: 400px; */
-/* background-color: rgb(174, 214, 212); */
 }
 
 .imgCycler {
@@ -300,8 +272,6 @@ padding-right: 0.5rem;
         overflow: hidden;
         position: relative;
         height: 400px;
-        /* height: 400px; */
-        /* background-color: rgb(174, 214, 212); */
         }
 
         .imgCycler {

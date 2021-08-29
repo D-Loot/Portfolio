@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Looten Web Development</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="head-block">
+        <h1>
+            DAN LOOTEN WEB DEVELOPMENT
+        </h1>
+        <div>
+<!-- The buttons will scroll down to the appropriate sections -->
+            <p><a href="#about-me" class="hover-text">ABOUT ME</a></p>
+            <p><a href="#work" class="hover-text">WORK</a></p>
+            <p><a href="#contact-me" class="hover-text">CONTACT ME</a></p>
+<!-- When the "Resume" button is selected, a pdf containing my resume will appear -->
+            <p><a href="./assets/LOOTEN - RESUME.pdf" class="hover-text">RESUME</a></p>
+        </div>
+    </div>
+    <!-- A container consisting of images that will cycle if certain buttons are pushed.
+    REF: https://jqueryui.com/position/#cycler
+    REF: IMAGES from http://nvidia-research-mingyuliu.com/gaugan/ -->
+    <div id="container">
+        <img class="imgCycler" src="./assets/images/fake flowers.png" width="50" height="307" alt="flowers">
+        <img class="imgCycler" src="./assets/images/fake riverside.png" width="512" height="307" alt="riverside">
+        <img class="imgCycler" src="./assets/images/fake coastline3.png" width="512" height="307" alt="coastline3">
+      <div id="previous">&lt;</div>
+      <div id="next">&gt;</div>
+      </div>
+    <section id="about-me" class="content-grid grid-area-1">
+        <h2>ABOUT ME</h2>
+        <p>Dan Looten Web Development offers expertise in both front-end and back-end web development. <br> <br>
+            If you are a small company looking for website online to host web sales or a large corporation <br>
+            looking for back-end assistance, Dan Looten Web Development can help you.</p>
+
+        <img src="./assets/images/cover photo.jpg" alt="Profile Picture" class="profile-pic">
+    </section>
+
+    <section id="work" class="content-grid grid-area-2">
+        <h2>WORK</h2>
+        <div class="App-Flex">
+            <!--Create an animation that flips the card as the user hovers over the card.
+            REF: https://www.w3schools.com/howto/howto_css_flip_card.asp -->
+            <div class="App-Info" id="First-App">
+                <a href="https://d-loot.github.io/spoons/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/SpoonsImg.png" alt="Spoons Project" class="App-Info-Img-Init">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Spoons Project</h1>
+                            <p>A progress tracker built specifically for the neurodivergent community. The program utilizes both set tasks, and custom tasks that can be inputted by the user.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>JavaScript</p>
+                                <p>Local Storage</p>
+                                <p>API</p>
+                                <p>moment.js</p>
+                                <p>GitHub</p>
+                                <p>timer (setInterval)</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="https://d-loot.github.io/W06-WeatherDashboard/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/WeatherAppImg.PNG" alt="Weather Dashboard" class="App-Info-Img-Init">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Weather Dashboard</h1>
+                            <p>Current and 5 day weather forecast app for any given city.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>BootStrap</p>
+                                <p>JavaScript</p>
+                                <p>OpenWeatherMap API</p>
+                                <p>moment.js</p>
+                                <p>Local Storage</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="https://d-loot.github.io/W05-WorkDayScheduler/">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/WorkDayScheduler.png" alt="Work Day Scheduler" class="App-Info-Img-Init">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Work Day Scheduler</h1>
+                            <p>Saves the tasks submitted into each timeslot and displays a different color for each timeslot. (Current time: red; past: grey; future: green).</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>BootStrap</p>
+                                <p>JavaScript</p>
+                                <p>moment.js</p>
+                                <p>Local Storage</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="App-Info">
+                <a href="./calculator/index.html">
+                    <div class="App-Info-inner">
+                        <div class="App-Info-Img">
+                        <img src="./assets/images/Calculator.PNG" alt="Calculator" class="App-Info-Img-Init">
+                        </div>
+                        <div class="App-Info-Text">
+                            <h1>Calculator</h1>
+                            <p>A fully functional calculator.</p>
+                            <p>Skills:</p>
+                            <div class="skillsTextDiv">
+                                <p>HTML</p>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact-me">
+        <h2>CONTACT ME</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/dan-looten-1917b2178" class="hover-text">Linkedin</a></li>
+            <li><a href="https://github.com/D-Loot/Portfolio"  class="hover-text">GitHub</a></li>
+            <li><a href="mailto: danwlooten@gmail.com" class="hover-text">Email</a></li>
+        </ul>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -27,13 +27,32 @@
     <!-- A container consisting of images that will cycle if certain buttons are pushed.
     REF: https://jqueryui.com/position/#cycler
     REF: IMAGES from http://nvidia-research-mingyuliu.com/gaugan/ -->
-    <div id="container">
+    <!-- <div id="container">
         <img class="imgCycler" src="./assets/images/fake flowers.png" width="50" height="307" alt="flowers">
         <img class="imgCycler" src="./assets/images/fake riverside.png" width="512" height="307" alt="riverside">
         <img class="imgCycler" src="./assets/images/fake coastline3.png" width="512" height="307" alt="coastline3">
       <div id="previous">&lt;</div>
       <div id="next">&gt;</div>
+      </div> -->
+      <div id="fourColor">
+          <p class="color-rectangle" id="topLeft1"></p>
+          <p class="color-rectangle" id="topRight1"></p>
+          <p class="color-rectangle" id="bottomLeft1"></p>
+          <p class="color-rectangle" id="bottomCenter1"></p>
+          <p class="color-rectangle" id="bottomRight1"></p>
+          <!-- <h1 id="logo">Dan Looten Web Development</h1> -->
+
+          <section id="about-me logo" class="content-grid grid-area-1">
+            <h2>ABOUT ME</h2>
+            <p>Dan Looten Web Development offers expertise in both front-end and back-end web development. <br> <br>
+                If you are a small company looking for website online to host web sales or a large corporation <br>
+                looking for back-end assistance, Dan Looten Web Development can help you.</p>
+
+            <img src="./assets/images/cover photo.jpg" alt="Profile Picture" class="profile-pic">
+        </section>
+
       </div>
+<!--
     <section id="about-me" class="content-grid grid-area-1">
         <h2>ABOUT ME</h2>
         <p>Dan Looten Web Development offers expertise in both front-end and back-end web development. <br> <br>
@@ -41,14 +60,90 @@
             looking for back-end assistance, Dan Looten Web Development can help you.</p>
 
         <img src="./assets/images/cover photo.jpg" alt="Profile Picture" class="profile-pic">
-    </section>
+    </section> -->
+
+    <div id="fourColor">
+        <p class="color-rectangle" id="topLeft2"></p>
+        <p class="color-rectangle" id="topRight2"></p>
+        <p class="color-rectangle" id="bottomLeft2"></p>
+        <p class="color-rectangle" id="bottomCenter2"></p>
+        <p class="color-rectangle" id="bottomRight2"></p>
 
     <section id="work" class="content-grid grid-area-2">
         <h2>WORK</h2>
         <div class="App-Flex">
             <!--Create an animation that flips the card as the user hovers over the card.
             REF: https://www.w3schools.com/howto/howto_css_flip_card.asp -->
-            <div class="App-Info" id="First-App">
+            <div class="App-Info">
+                <div class="App-Info-inner">
+                    <div class="App-Info-Img">
+                        <img src="./assets/images/Artsell-logo.png" alt="Artsell Project" class="App-Info-Img-Init">
+                    </div>
+                    <div class="App-Info-Text">
+                        <h1>ArtSell Project</h1>
+                        <p>An art E-Commerce site. Users are able to sign in, add artwork to the cart database and simulate the checkout portion of the transaction using Stripe.</p>
+                        <p>Skills:</p>
+                        <div class="skillsTextDiv">
+                            <p>Stripe</p>
+                            <p>Heroku</p>
+                            <p>NodeJS</p>
+                            <p>Sequelize</p>
+                            <p>ExpressJS</p>
+                            <p>Express-Handlebars</p>
+                            <div class="link-border">
+                                <p><a href="https://artsell.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                <p><a href="https://github.com/D-Loot/ArtSell/" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="App-Info">
+                <div class="App-Info-inner">
+                    <div class="App-Info-Img">
+                        <img src="./assets/images/TechBlog.PNG" alt="TechBlog" class="App-Info-Img-Init">
+                    </div>
+                    <div class="App-Info-Text">
+                        <h1>Tech Blog</h1>
+                        <p>A full-stack developed blog. Users are able to sign in, create, update, and delete posts and add new comments to existing posts.</p>
+                        <p>Skills:</p>
+                        <div class="skillsTextDiv">
+                            <p>Heroku</p>
+                            <p>NodeJS</p>
+                            <p>Sequelize</p>
+                            <p>ExpressJS</p>
+                            <p>Express-Handlebars</p>
+                            <div class="link-border">
+                                <p><a href="https://guarded-journey-90332.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                <p><a href="https://github.com/D-Loot/W14-TechBlog/" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="App-Info">
+                <div class="App-Info-inner">
+                    <div class="App-Info-Img">
+                    <img src="./assets/images/OpeningPage.PNG" alt="Note Taker" class="App-Info-Img-Init">
+                    </div>
+                    <div class="App-Info-Text">
+                        <h1>Note Taker</h1>
+                        <p>A fully functional note taker app. The front end was provided, and the backend was completed by this developer.</p>
+                        <p>Skills:</p>
+                        <div class="skillsTextDiv">
+                            <p>Heroku</p>
+                            <p>NodeJS</p>
+                            <p>ExpressJS</p>
+                            <p>Express-Handlebars</p>
+                            <div class="link-border">
+                                <p><a href="https://whispering-ocean-33462.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                <p><a href="https://github.com/D-Loot/W11-ExpressJS-NoteTaker/" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="App-Info">
                 <a href="https://d-loot.github.io/spoons/">
                     <div class="App-Info-inner">
                         <div class="App-Info-Img">
@@ -65,7 +160,10 @@
                                 <p>API</p>
                                 <p>moment.js</p>
                                 <p>GitHub</p>
-                                <p>timer (setInterval)</p>
+                                <div class="link-border">
+                                    <p><a href="https://d-loot.github.io/spoons/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                    <p><a href="https://github.com/D-Loot/spoons/" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,6 +187,10 @@
                                 <p>OpenWeatherMap API</p>
                                 <p>moment.js</p>
                                 <p>Local Storage</p>
+                                <div class="link-border">
+                                    <p><a href="https://d-loot.github.io/W06-WeatherDashboard/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                    <p><a href="https://github.com/D-Loot/W06-WeatherDashboard" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,25 +213,10 @@
                                 <p>JavaScript</p>
                                 <p>moment.js</p>
                                 <p>Local Storage</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="App-Info">
-                <a href="./calculator/index.html">
-                    <div class="App-Info-inner">
-                        <div class="App-Info-Img">
-                        <img src="./assets/images/Calculator.PNG" alt="Calculator" class="App-Info-Img-Init">
-                        </div>
-                        <div class="App-Info-Text">
-                            <h1>Calculator</h1>
-                            <p>A fully functional calculator.</p>
-                            <p>Skills:</p>
-                            <div class="skillsTextDiv">
-                                <p>HTML</p>
-                                <p>JavaScript</p>
+                                <div class="link-border">
+                                    <p><a href="https://d-loot.github.io/W05-WorkDayScheduler/" target="_blank" rel="noopener noreferrer" id="hover-text">Deployed App</a></p>
+                                    <p><a href="https://github.com/D-Loot/W05-WorkDayScheduler" target="_blank" rel="noopener noreferrer" id="hover-text">GitHub Repository</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -137,6 +224,7 @@
             </div>
         </div>
     </section>
+</div>
 
     <footer id="contact-me">
         <h2>CONTACT ME</h2>
@@ -144,11 +232,8 @@
             <li><a href="https://www.linkedin.com/in/dan-looten-1917b2178" class="hover-text">Linkedin</a></li>
             <li><a href="https://github.com/D-Loot/Portfolio"  class="hover-text">GitHub</a></li>
             <li><a href="mailto: danwlooten@gmail.com" class="hover-text">Email</a></li>
+            <li>Phone: (217) 653-8877</li>
         </ul>
     </footer>
-
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="./assets/js/script.js"></script>
 </body>
 </html>

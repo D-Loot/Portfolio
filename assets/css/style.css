@@ -28,6 +28,127 @@ body {
     align-self: center;
 }
 
+#fourColor{
+    width: 100%;
+    height: fit-content;
+    overflow:hidden;
+    position: relative;
+}
+
+.color-rectangle{
+    border-radius: 0%;
+    z-index: -1;
+}
+
+#topLeft1{
+    filter: blur(60px);
+    height: 55%;
+    width: 55%;
+    position: absolute;
+    left: 1rem;
+    background-color:lightblue;
+}
+
+#topRight1{
+    filter: blur(60px);
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    right: 0rem;
+    background-color:lightcyan;
+}
+
+#bottomLeft1{
+    filter: blur(60px);
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    left: 1rem;
+    bottom: 4rem;
+    background-color: lightskyblue;
+}
+
+#bottomCenter1{
+    filter: blur(60px);
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    left: 35%;
+    bottom: 4rem;
+    background-color: lightsteelblue;
+}
+
+#bottomRight1{
+    filter: blur(60px);
+    height: 55%;
+    width: 35%;
+    position: absolute;
+    right: 1rem;
+    bottom: 2rem;
+    background-color: skyblue;
+}
+
+#topLeft2{
+    filter: blur(60px);
+    height: 55%;
+    width: 55%;
+    position: absolute;
+    bottom: 4rem;
+    background-color: lightblue;
+}
+
+#topRight2{
+    filter: blur(60px);
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    bottom: 4rem;
+    right: 0rem;
+    background-color: lightcyan;
+}
+
+#bottomLeft2{
+    filter: blur(60px);
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    top:2rem;
+    left: 1rem;
+    background-color: lightskyblue;
+}
+
+#bottomCenter2{
+    filter: blur(60px);
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    top:2rem;
+    left: 35%;
+    background-color: lightsteelblue;
+}
+
+#bottomRight2{
+    filter: blur(60px);
+    height: 55%;
+    width: 35%;
+    position: absolute;
+    top:2rem;
+    right: 1rem;
+    background-color: skyblue;
+}
+
+
+#hover-text:hover{
+    color: #FFB63E;
+    border-color: #FFB63E;
+}
+
+#logo {
+    font-size: 3rem;
+    color: white;
+    z-index: 1;
+}
+
 @media screen and (max-width: 800px) {
     .head-block {
         display: flex;
@@ -77,19 +198,23 @@ body {
 }
 
 .grid-area-1{
-    margin: 5vh 10vw 0px;
+    margin: 3vh 10vw 3vh;
     display:grid;
     grid-template-columns: 20vw 30vw 30vw;
     grid-template-rows: 1fr;
     gap: 0px 0px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px white;
 }
 
 .grid-area-2{
-    margin: 5vh 10vw 0px;
+    margin: 3vh 10vw 3vh;
     display:grid;
     grid-template-columns: 20vw 60vw;
     grid-template-rows: 1fr;
     gap: 0px 0px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px white;
 }
 
 .content-grid h2 {
@@ -138,6 +263,9 @@ body {
     display: inline-block;
     border: white solid 1px;
     padding: 2px;
+}
+.link-border p:hover{
+    border-color: #FFB63E;
 }
 
   .App-Info-inner {
@@ -193,7 +321,7 @@ body {
 footer {
     background-color: #9BD093;
     color:white;
-    height: 20vh;
+    height: 5vh;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
